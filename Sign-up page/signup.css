@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    /* border: 2px solid blue; */
+    height: 720px;
+    width: 1510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+#left{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 40%;
+    background: linear-gradient(190deg,rgba(128, 0, 128, 0.555),rgba(255, 0, 0, 0.664),rgba(0, 0, 255, 0.648)),url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#right{
+    /* border: 2px solid red; */
+    background-color: rgba(250, 235, 215, 0.223);
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#centerbody{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: whitesmoke;
+}
+#cards{
+    /* border: 2px solid black; */
+    height: 15%;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#btn_card{
+    /* border: 2px solid black; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#text{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+}
+input{
+    height: 40px;
+    width: 400px;
+    padding-left: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+#submit_btn{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+    color: green;
+    font-size: 20px;
+    border: none;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+#submit_btn:hover{
+    background-color: green;
+    color: white;
+    
+}
+#cancel_btn{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    border: none;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+#cancel_btn:hover{
+    background-color: red;
+    color: white;
+    
+}
