@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black  ; */
+}
+.container{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color: black  ;
+    /* flex-direction: column; */
+    padding-top: 20px;
+}
+.title{
+    /* margin-bottom: 10px; */
+    /* border: 2px solid green; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(50, 47, 47);
+    color:white;
+
+}
+.title h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title input{
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title button{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(72, 72, 234);
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+ .cards{
+    border: 1px dashed red;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(44, 42, 42, 0.478);
+    cursor: pointer;
+}
+.cards:hover{
+    transform: scale(1.05);
+    transition-timing-function: ease-out;
+    transition-duration: 0.1s;
+}
+.cards h1{
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards h2{
+    text-align: center;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+.cards img{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
